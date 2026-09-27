@@ -1,0 +1,23 @@
+kind: synthetic_smoke_test
+seed: 741
+samples: 480
+baseline_hidden_units: 4
+fixed_hidden_units: 4
+training:
+  evaluate_test: true
+  learning_rate: 0.02
+  weight_decay: 0.0001
+  batch_size: 32
+  max_epochs: 18
+  patience: 4
+  min_delta: 0.002
+  activation: tanh
+controller:
+  min_epochs: 3
+  patience: 3
+  min_delta: 0.003
+  underfit_train_f1: 0.98
+  underfit_max_gap: 0.20
+  overfit_gap: 0.30
+  max_hidden_units: 3
+  max_epochs_per_stage: 16

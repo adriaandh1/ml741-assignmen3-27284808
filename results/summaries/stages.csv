@@ -1,0 +1,491 @@
+dataset,epochs,hidden_units,macro_f1,method,phase,seed,seen_classes,stage,termination
+dry_bean,12,16,0.9412945182372237,all_class_baseline,class_stage,1001,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,11,16,1.0,fixed_capacity_incremental,class_stage,1001,"[1, 0]",0,validation_stagnation
+dry_bean,16,16,0.9691166848418756,fixed_capacity_incremental,class_stage,1001,"[1, 0, 2]",1,validation_stagnation
+dry_bean,14,16,0.9692740306906747,fixed_capacity_incremental,class_stage,1001,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,12,16,0.9714686153953308,fixed_capacity_incremental,class_stage,1001,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,17,16,0.9659112740170904,fixed_capacity_incremental,class_stage,1001,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,12,16,0.9467661267728806,fixed_capacity_incremental,class_stage,1001,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.94863362469152,fixed_capacity_incremental,consolidation,1001,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,17,0,1.0,adaptive_capacity_incremental,class_stage,1001,"[1, 0]",0,advance
+dry_bean,34,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1001,"[1, 0, 2]",1,advance
+dry_bean,22,0,0.9675401439045644,adaptive_capacity_incremental,class_stage,1001,"[1, 0, 2, 4]",2,advance
+dry_bean,16,0,0.9693550560941896,adaptive_capacity_incremental,class_stage,1001,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,19,0,0.9599211652858772,adaptive_capacity_incremental,class_stage,1001,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.945204060673672,adaptive_capacity_incremental,class_stage,1001,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.9474036764693288,adaptive_capacity_incremental,consolidation,1001,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,20,16,0.9445217625272097,all_class_baseline,class_stage,1002,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,12,16,1.0,fixed_capacity_incremental,class_stage,1002,"[1, 0]",0,validation_stagnation
+dry_bean,10,16,0.9680528481698072,fixed_capacity_incremental,class_stage,1002,"[1, 0, 2]",1,validation_stagnation
+dry_bean,17,16,0.9682784030758214,fixed_capacity_incremental,class_stage,1002,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,22,16,0.9741391578766528,fixed_capacity_incremental,class_stage,1002,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,24,16,0.9661173771220594,fixed_capacity_incremental,class_stage,1002,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,26,16,0.9499913301351391,fixed_capacity_incremental,class_stage,1002,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9499913301351391,fixed_capacity_incremental,consolidation,1002,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,21,0,1.0,adaptive_capacity_incremental,class_stage,1002,"[1, 0]",0,advance
+dry_bean,28,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1002,"[1, 0, 2]",1,advance
+dry_bean,25,0,0.9676201501032562,adaptive_capacity_incremental,class_stage,1002,"[1, 0, 2, 4]",2,advance
+dry_bean,13,0,0.9681585004873235,adaptive_capacity_incremental,class_stage,1002,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,20,0,0.959724579272184,adaptive_capacity_incremental,class_stage,1002,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.945503394488153,adaptive_capacity_incremental,class_stage,1002,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.946383238153141,adaptive_capacity_incremental,consolidation,1002,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,20,16,0.9469070306932458,all_class_baseline,class_stage,1003,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,12,16,1.0,fixed_capacity_incremental,class_stage,1003,"[1, 0]",0,validation_stagnation
+dry_bean,36,16,0.9724941724941726,fixed_capacity_incremental,class_stage,1003,"[1, 0, 2]",1,validation_stagnation
+dry_bean,12,16,0.9704208791886582,fixed_capacity_incremental,class_stage,1003,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,10,16,0.9715426277031975,fixed_capacity_incremental,class_stage,1003,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,14,16,0.9642723863894463,fixed_capacity_incremental,class_stage,1003,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,26,16,0.9513483400611654,fixed_capacity_incremental,class_stage,1003,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9513483400611654,fixed_capacity_incremental,consolidation,1003,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,24,0,1.0,adaptive_capacity_incremental,class_stage,1003,"[1, 0]",0,advance
+dry_bean,24,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1003,"[1, 0, 2]",1,advance
+dry_bean,21,0,0.9682390648205637,adaptive_capacity_incremental,class_stage,1003,"[1, 0, 2, 4]",2,advance
+dry_bean,19,0,0.9699557228564016,adaptive_capacity_incremental,class_stage,1003,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,18,0,0.9597220373411044,adaptive_capacity_incremental,class_stage,1003,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,3,0.9464979450126322,adaptive_capacity_incremental,class_stage,1003,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,3,0.9464979450126322,adaptive_capacity_incremental,consolidation,1003,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,14,16,0.942597470034632,all_class_baseline,class_stage,1004,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,9,16,1.0,fixed_capacity_incremental,class_stage,1004,"[1, 0]",0,validation_stagnation
+dry_bean,15,16,0.9680083038978744,fixed_capacity_incremental,class_stage,1004,"[1, 0, 2]",1,validation_stagnation
+dry_bean,14,16,0.9700395368778456,fixed_capacity_incremental,class_stage,1004,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,11,16,0.9718373789224074,fixed_capacity_incremental,class_stage,1004,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,15,16,0.9648846208889272,fixed_capacity_incremental,class_stage,1004,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,18,16,0.9478572711411208,fixed_capacity_incremental,class_stage,1004,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9506486970696392,fixed_capacity_incremental,consolidation,1004,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,9,0,1.0,adaptive_capacity_incremental,class_stage,1004,"[1, 0]",0,advance
+dry_bean,32,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1004,"[1, 0, 2]",1,advance
+dry_bean,22,0,0.9667827612893968,adaptive_capacity_incremental,class_stage,1004,"[1, 0, 2, 4]",2,advance
+dry_bean,22,0,0.9695795316559416,adaptive_capacity_incremental,class_stage,1004,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,20,0,0.959724579272184,adaptive_capacity_incremental,class_stage,1004,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.9477547439003052,adaptive_capacity_incremental,class_stage,1004,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.9488554197705712,adaptive_capacity_incremental,consolidation,1004,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,25,16,0.945623631330198,all_class_baseline,class_stage,1005,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,11,16,1.0,fixed_capacity_incremental,class_stage,1005,"[1, 0]",0,validation_stagnation
+dry_bean,14,16,0.9656721280953268,fixed_capacity_incremental,class_stage,1005,"[1, 0, 2]",1,validation_stagnation
+dry_bean,27,16,0.9710733648846324,fixed_capacity_incremental,class_stage,1005,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,14,16,0.9739842529794592,fixed_capacity_incremental,class_stage,1005,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,10,16,0.965576148842113,fixed_capacity_incremental,class_stage,1005,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,20,16,0.9470816602791624,fixed_capacity_incremental,class_stage,1005,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9481309270811924,fixed_capacity_incremental,consolidation,1005,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,18,0,1.0,adaptive_capacity_incremental,class_stage,1005,"[1, 0]",0,advance
+dry_bean,30,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1005,"[1, 0, 2]",1,advance
+dry_bean,21,0,0.9684081282767852,adaptive_capacity_incremental,class_stage,1005,"[1, 0, 2, 4]",2,advance
+dry_bean,16,0,0.9693703909558592,adaptive_capacity_incremental,class_stage,1005,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,19,0,0.9593598192740408,adaptive_capacity_incremental,class_stage,1005,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.9465645582536298,adaptive_capacity_incremental,class_stage,1005,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.9465645582536298,adaptive_capacity_incremental,consolidation,1005,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,13,16,0.9419972799255912,all_class_baseline,class_stage,1006,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,12,16,1.0,fixed_capacity_incremental,class_stage,1006,"[1, 0]",0,validation_stagnation
+dry_bean,10,16,0.9657935320787095,fixed_capacity_incremental,class_stage,1006,"[1, 0, 2]",1,validation_stagnation
+dry_bean,15,16,0.9693236604005588,fixed_capacity_incremental,class_stage,1006,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,20,16,0.9733435401086143,fixed_capacity_incremental,class_stage,1006,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,18,16,0.9634737479184574,fixed_capacity_incremental,class_stage,1006,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,16,16,0.9477236847110388,fixed_capacity_incremental,class_stage,1006,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9498683459103976,fixed_capacity_incremental,consolidation,1006,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,20,0,1.0,adaptive_capacity_incremental,class_stage,1006,"[1, 0]",0,advance
+dry_bean,35,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1006,"[1, 0, 2]",1,advance
+dry_bean,15,0,0.966949908816393,adaptive_capacity_incremental,class_stage,1006,"[1, 0, 2, 4]",2,advance
+dry_bean,13,0,0.9695574421872944,adaptive_capacity_incremental,class_stage,1006,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,20,0,0.9600883681318608,adaptive_capacity_incremental,class_stage,1006,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.9457075568647806,adaptive_capacity_incremental,class_stage,1006,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.9479508618564244,adaptive_capacity_incremental,consolidation,1006,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,22,16,0.9457690737146588,all_class_baseline,class_stage,1007,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,12,16,1.0,fixed_capacity_incremental,class_stage,1007,"[1, 0]",0,validation_stagnation
+dry_bean,24,16,0.9702491776826164,fixed_capacity_incremental,class_stage,1007,"[1, 0, 2]",1,validation_stagnation
+dry_bean,11,16,0.9694904126616624,fixed_capacity_incremental,class_stage,1007,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,22,16,0.974157418894028,fixed_capacity_incremental,class_stage,1007,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,13,16,0.9657117203510036,fixed_capacity_incremental,class_stage,1007,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,11,16,0.9486529111349088,fixed_capacity_incremental,class_stage,1007,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9488913136628578,fixed_capacity_incremental,consolidation,1007,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,28,0,1.0,adaptive_capacity_incremental,class_stage,1007,"[1, 0]",0,advance
+dry_bean,32,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1007,"[1, 0, 2]",1,advance
+dry_bean,17,0,0.9677708569965574,adaptive_capacity_incremental,class_stage,1007,"[1, 0, 2, 4]",2,advance
+dry_bean,13,0,0.9692509629194156,adaptive_capacity_incremental,class_stage,1007,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,17,0,0.9585101101000628,adaptive_capacity_incremental,class_stage,1007,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,3,0.9457064295401788,adaptive_capacity_incremental,class_stage,1007,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,3,0.9457064295401788,adaptive_capacity_incremental,consolidation,1007,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,21,16,0.946847251959566,all_class_baseline,class_stage,1008,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,12,16,1.0,fixed_capacity_incremental,class_stage,1008,"[1, 0]",0,validation_stagnation
+dry_bean,13,16,0.9656980732782178,fixed_capacity_incremental,class_stage,1008,"[1, 0, 2]",1,validation_stagnation
+dry_bean,15,16,0.9684554410092778,fixed_capacity_incremental,class_stage,1008,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,20,16,0.9737108229047368,fixed_capacity_incremental,class_stage,1008,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,13,16,0.9656985503359292,fixed_capacity_incremental,class_stage,1008,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,16,16,0.9479847818682068,fixed_capacity_incremental,class_stage,1008,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9479847818682068,fixed_capacity_incremental,consolidation,1008,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,29,0,1.0,adaptive_capacity_incremental,class_stage,1008,"[1, 0]",0,advance
+dry_bean,27,0,0.9656453434883367,adaptive_capacity_incremental,class_stage,1008,"[1, 0, 2]",1,advance
+dry_bean,21,0,0.9676036108724771,adaptive_capacity_incremental,class_stage,1008,"[1, 0, 2, 4]",2,advance
+dry_bean,15,0,0.9689074125590524,adaptive_capacity_incremental,class_stage,1008,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,19,0,0.9592996299735804,adaptive_capacity_incremental,class_stage,1008,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.9476101284958656,adaptive_capacity_incremental,class_stage,1008,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.9476101284958656,adaptive_capacity_incremental,consolidation,1008,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,14,16,0.9450100609227648,all_class_baseline,class_stage,1009,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,11,16,1.0,fixed_capacity_incremental,class_stage,1009,"[1, 0]",0,validation_stagnation
+dry_bean,10,16,0.9667501314156848,fixed_capacity_incremental,class_stage,1009,"[1, 0, 2]",1,validation_stagnation
+dry_bean,18,16,0.968451869399122,fixed_capacity_incremental,class_stage,1009,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,23,16,0.97502909353556,fixed_capacity_incremental,class_stage,1009,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,12,16,0.963795322696578,fixed_capacity_incremental,class_stage,1009,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,14,16,0.9449609077543482,fixed_capacity_incremental,class_stage,1009,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9494387682526124,fixed_capacity_incremental,consolidation,1009,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,14,0,1.0,adaptive_capacity_incremental,class_stage,1009,"[1, 0]",0,advance
+dry_bean,29,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1009,"[1, 0, 2]",1,advance
+dry_bean,20,0,0.9668264882114634,adaptive_capacity_incremental,class_stage,1009,"[1, 0, 2, 4]",2,advance
+dry_bean,24,0,0.9701207131281856,adaptive_capacity_incremental,class_stage,1009,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,18,0,0.9581919095080136,adaptive_capacity_incremental,class_stage,1009,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,3,0.9451538759643598,adaptive_capacity_incremental,class_stage,1009,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,3,0.9460255989791052,adaptive_capacity_incremental,consolidation,1009,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,19,16,0.9434336625232812,all_class_baseline,class_stage,1010,"[0, 1, 2, 3, 4, 5, 6]",0,validation_stagnation
+dry_bean,11,16,1.0,fixed_capacity_incremental,class_stage,1010,"[1, 0]",0,validation_stagnation
+dry_bean,33,16,0.9725584586225744,fixed_capacity_incremental,class_stage,1010,"[1, 0, 2]",1,validation_stagnation
+dry_bean,12,16,0.9712217224465904,fixed_capacity_incremental,class_stage,1010,"[1, 0, 2, 4]",2,validation_stagnation
+dry_bean,18,16,0.9740844732880232,fixed_capacity_incremental,class_stage,1010,"[1, 0, 2, 4, 5]",3,validation_stagnation
+dry_bean,15,16,0.9664687777969312,fixed_capacity_incremental,class_stage,1010,"[1, 0, 2, 4, 5, 6]",4,validation_stagnation
+dry_bean,19,16,0.9485716426460032,fixed_capacity_incremental,class_stage,1010,"[1, 0, 2, 4, 5, 6, 3]",5,validation_stagnation
+dry_bean,15,16,0.9493053363197564,fixed_capacity_incremental,consolidation,1010,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+dry_bean,13,0,1.0,adaptive_capacity_incremental,class_stage,1010,"[1, 0]",0,advance
+dry_bean,34,0,0.9667772473658202,adaptive_capacity_incremental,class_stage,1010,"[1, 0, 2]",1,advance
+dry_bean,17,0,0.9660820362891542,adaptive_capacity_incremental,class_stage,1010,"[1, 0, 2, 4]",2,advance
+dry_bean,16,0,0.969437865734486,adaptive_capacity_incremental,class_stage,1010,"[1, 0, 2, 4, 5]",3,advance
+dry_bean,19,0,0.9599211652858772,adaptive_capacity_incremental,class_stage,1010,"[1, 0, 2, 4, 5, 6]",4,advance
+dry_bean,60,4,0.9432781222179756,adaptive_capacity_incremental,class_stage,1010,"[1, 0, 2, 4, 5, 6, 3]",5,budget_stop
+dry_bean,15,4,0.9449067213756004,adaptive_capacity_incremental,consolidation,1010,"[1, 0, 2, 4, 5, 6, 3]",6,maximum_epochs
+landsat,17,16,0.8314398105317958,all_class_baseline,class_stage,1001,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,33,16,0.9772563548420294,fixed_capacity_incremental,class_stage,1001,"[3, 4]",0,validation_stagnation
+landsat,22,16,0.9649523005388142,fixed_capacity_incremental,class_stage,1001,"[3, 4, 1]",1,validation_stagnation
+landsat,20,16,0.9153810232764076,fixed_capacity_incremental,class_stage,1001,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,13,16,0.8240283197936666,fixed_capacity_incremental,class_stage,1001,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,19,16,0.8518161332546642,fixed_capacity_incremental,class_stage,1001,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8559544166700729,fixed_capacity_incremental,consolidation,1001,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,51,1,0.959155594800501,adaptive_capacity_incremental,class_stage,1001,"[3, 4]",0,advance
+landsat,29,2,0.9445450279199034,adaptive_capacity_incremental,class_stage,1001,"[3, 4, 1]",1,advance
+landsat,60,5,0.9159569369792672,adaptive_capacity_incremental,class_stage,1001,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,7,0.8314556988984109,adaptive_capacity_incremental,class_stage,1001,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,10,0.8623344714824066,adaptive_capacity_incremental,class_stage,1001,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,10,0.8623344714824066,adaptive_capacity_incremental,consolidation,1001,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,26,16,0.8601965094636811,all_class_baseline,class_stage,1002,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,25,16,0.972725028797104,fixed_capacity_incremental,class_stage,1002,"[3, 4]",0,validation_stagnation
+landsat,17,16,0.9623614118866493,fixed_capacity_incremental,class_stage,1002,"[3, 4, 1]",1,validation_stagnation
+landsat,36,16,0.92144500485895,fixed_capacity_incremental,class_stage,1002,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,28,16,0.8397563382577158,fixed_capacity_incremental,class_stage,1002,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,17,16,0.8548809378156476,fixed_capacity_incremental,class_stage,1002,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8596260559157317,fixed_capacity_incremental,consolidation,1002,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,27,1,0.94093945934834,adaptive_capacity_incremental,class_stage,1002,"[3, 4]",0,advance
+landsat,58,2,0.9675522802636086,adaptive_capacity_incremental,class_stage,1002,"[3, 4, 1]",1,advance
+landsat,60,5,0.919148557297058,adaptive_capacity_incremental,class_stage,1002,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,7,0.8372962308757165,adaptive_capacity_incremental,class_stage,1002,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,11,0.863197890482961,adaptive_capacity_incremental,class_stage,1002,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,11,0.863197890482961,adaptive_capacity_incremental,consolidation,1002,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,41,16,0.8581993160104081,all_class_baseline,class_stage,1003,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,34,16,0.9863706444650016,fixed_capacity_incremental,class_stage,1003,"[3, 4]",0,validation_stagnation
+landsat,22,16,0.9596625529942844,fixed_capacity_incremental,class_stage,1003,"[3, 4, 1]",1,validation_stagnation
+landsat,18,16,0.915663491498264,fixed_capacity_incremental,class_stage,1003,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,18,16,0.8314988861244924,fixed_capacity_incremental,class_stage,1003,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,12,16,0.8453381911393113,fixed_capacity_incremental,class_stage,1003,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8522369428741774,fixed_capacity_incremental,consolidation,1003,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,34,1,0.9500790603117236,adaptive_capacity_incremental,class_stage,1003,"[3, 4]",0,advance
+landsat,51,1,0.953487609321131,adaptive_capacity_incremental,class_stage,1003,"[3, 4, 1]",1,advance
+landsat,60,5,0.9101404439601608,adaptive_capacity_incremental,class_stage,1003,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,7,0.8394321612437989,adaptive_capacity_incremental,class_stage,1003,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,10,0.8645080112961671,adaptive_capacity_incremental,class_stage,1003,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,10,0.8660185531582661,adaptive_capacity_incremental,consolidation,1003,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,40,16,0.8618248097996152,all_class_baseline,class_stage,1004,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,24,16,0.9818376068376068,fixed_capacity_incremental,class_stage,1004,"[3, 4]",0,validation_stagnation
+landsat,32,16,0.9705570150928212,fixed_capacity_incremental,class_stage,1004,"[3, 4, 1]",1,validation_stagnation
+landsat,18,16,0.9227058229200068,fixed_capacity_incremental,class_stage,1004,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,11,16,0.8214032004123416,fixed_capacity_incremental,class_stage,1004,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,12,16,0.8447122928505206,fixed_capacity_incremental,class_stage,1004,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.846022882360954,fixed_capacity_incremental,consolidation,1004,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,44,1,0.9727564102564102,adaptive_capacity_incremental,class_stage,1004,"[3, 4]",0,advance
+landsat,43,2,0.96472662867343,adaptive_capacity_incremental,class_stage,1004,"[3, 4, 1]",1,advance
+landsat,60,4,0.9248031801545992,adaptive_capacity_incremental,class_stage,1004,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,7,0.8355069748841231,adaptive_capacity_incremental,class_stage,1004,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,10,0.8614439716144581,adaptive_capacity_incremental,class_stage,1004,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,10,0.8630360689245015,adaptive_capacity_incremental,consolidation,1004,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,29,16,0.8413886660515923,all_class_baseline,class_stage,1005,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,23,16,0.9818376068376068,fixed_capacity_incremental,class_stage,1005,"[3, 4]",0,validation_stagnation
+landsat,21,16,0.96802157491315,fixed_capacity_incremental,class_stage,1005,"[3, 4, 1]",1,validation_stagnation
+landsat,27,16,0.913668577730398,fixed_capacity_incremental,class_stage,1005,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,13,16,0.8294421953171446,fixed_capacity_incremental,class_stage,1005,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,34,16,0.8539392820227208,fixed_capacity_incremental,class_stage,1005,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8539392820227208,fixed_capacity_incremental,consolidation,1005,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,59,1,0.9637110016420362,adaptive_capacity_incremental,class_stage,1005,"[3, 4]",0,advance
+landsat,60,2,0.9646982469948976,adaptive_capacity_incremental,class_stage,1005,"[3, 4, 1]",1,budget_stop
+landsat,60,4,0.9160467496178876,adaptive_capacity_incremental,class_stage,1005,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,6,0.8440348743869096,adaptive_capacity_incremental,class_stage,1005,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,7,0.8645175894353504,adaptive_capacity_incremental,class_stage,1005,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,7,0.8645175894353504,adaptive_capacity_incremental,consolidation,1005,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,12,16,0.8366325072771014,all_class_baseline,class_stage,1006,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,25,16,0.972725028797104,fixed_capacity_incremental,class_stage,1006,"[3, 4]",0,validation_stagnation
+landsat,31,16,0.9703631642204362,fixed_capacity_incremental,class_stage,1006,"[3, 4, 1]",1,validation_stagnation
+landsat,14,16,0.9126643420058566,fixed_capacity_incremental,class_stage,1006,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,13,16,0.8307355366768819,fixed_capacity_incremental,class_stage,1006,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,19,16,0.8530785780914556,fixed_capacity_incremental,class_stage,1006,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8590315453119337,fixed_capacity_incremental,consolidation,1006,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,23,1,0.936619141265159,adaptive_capacity_incremental,class_stage,1006,"[3, 4]",0,advance
+landsat,60,1,0.9588182736330884,adaptive_capacity_incremental,class_stage,1006,"[3, 4, 1]",1,budget_stop
+landsat,60,4,0.90158194024822,adaptive_capacity_incremental,class_stage,1006,"[3, 4, 1, 2]",2,budget_stop
+landsat,48,6,0.8258539213363882,adaptive_capacity_incremental,class_stage,1006,"[3, 4, 1, 2, 5]",3,advance
+landsat,60,9,0.8542701587016218,adaptive_capacity_incremental,class_stage,1006,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,9,0.8568721478974206,adaptive_capacity_incremental,consolidation,1006,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,44,16,0.8615778670293204,all_class_baseline,class_stage,1007,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,30,16,0.9772844074416692,fixed_capacity_incremental,class_stage,1007,"[3, 4]",0,validation_stagnation
+landsat,27,16,0.95928734541772,fixed_capacity_incremental,class_stage,1007,"[3, 4, 1]",1,validation_stagnation
+landsat,14,16,0.9095096193357236,fixed_capacity_incremental,class_stage,1007,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,14,16,0.819213113165311,fixed_capacity_incremental,class_stage,1007,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,27,16,0.8581684617461888,fixed_capacity_incremental,class_stage,1007,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8581684617461888,fixed_capacity_incremental,consolidation,1007,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,41,1,0.9682321292892786,adaptive_capacity_incremental,class_stage,1007,"[3, 4]",0,advance
+landsat,48,2,0.944741816029082,adaptive_capacity_incremental,class_stage,1007,"[3, 4, 1]",1,advance
+landsat,60,5,0.9095087745859556,adaptive_capacity_incremental,class_stage,1007,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,8,0.83476221774213,adaptive_capacity_incremental,class_stage,1007,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,12,0.8623399576501677,adaptive_capacity_incremental,class_stage,1007,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,12,0.8623399576501677,adaptive_capacity_incremental,consolidation,1007,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,20,16,0.8500622673101068,all_class_baseline,class_stage,1008,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,11,16,0.9365879652402034,fixed_capacity_incremental,class_stage,1008,"[3, 4]",0,validation_stagnation
+landsat,51,16,0.9762346117156356,fixed_capacity_incremental,class_stage,1008,"[3, 4, 1]",1,validation_stagnation
+landsat,12,16,0.9061802705662636,fixed_capacity_incremental,class_stage,1008,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,27,16,0.8407549085205248,fixed_capacity_incremental,class_stage,1008,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,31,16,0.8751721743000885,fixed_capacity_incremental,class_stage,1008,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8751721743000885,fixed_capacity_incremental,consolidation,1008,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,26,1,0.9500790603117236,adaptive_capacity_incremental,class_stage,1008,"[3, 4]",0,advance
+landsat,60,2,0.9675672147257932,adaptive_capacity_incremental,class_stage,1008,"[3, 4, 1]",1,budget_stop
+landsat,60,4,0.9149727309184786,adaptive_capacity_incremental,class_stage,1008,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,7,0.8359839956694575,adaptive_capacity_incremental,class_stage,1008,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,11,0.860512720853211,adaptive_capacity_incremental,class_stage,1008,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,11,0.860512720853211,adaptive_capacity_incremental,consolidation,1008,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,47,16,0.8703448795697125,all_class_baseline,class_stage,1009,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,13,16,0.9500790603117236,fixed_capacity_incremental,class_stage,1009,"[3, 4]",0,validation_stagnation
+landsat,46,16,0.9764245221844164,fixed_capacity_incremental,class_stage,1009,"[3, 4, 1]",1,validation_stagnation
+landsat,22,16,0.9187328309240856,fixed_capacity_incremental,class_stage,1009,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,18,16,0.8336404139120438,fixed_capacity_incremental,class_stage,1009,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,17,16,0.8467415488582439,fixed_capacity_incremental,class_stage,1009,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8520839919107104,fixed_capacity_incremental,consolidation,1009,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,24,1,0.936546349466776,adaptive_capacity_incremental,class_stage,1009,"[3, 4]",0,advance
+landsat,40,2,0.9472057683974232,adaptive_capacity_incremental,class_stage,1009,"[3, 4, 1]",1,advance
+landsat,60,5,0.9122682000031724,adaptive_capacity_incremental,class_stage,1009,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,8,0.8299122923202716,adaptive_capacity_incremental,class_stage,1009,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,11,0.8573630257566277,adaptive_capacity_incremental,class_stage,1009,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,11,0.8573630257566277,adaptive_capacity_incremental,consolidation,1009,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,34,16,0.861438183250982,all_class_baseline,class_stage,1010,"[0, 1, 2, 3, 4, 5]",0,validation_stagnation
+landsat,23,16,0.9637110016420362,fixed_capacity_incremental,class_stage,1010,"[3, 4]",0,validation_stagnation
+landsat,23,16,0.9587226726528336,fixed_capacity_incremental,class_stage,1010,"[3, 4, 1]",1,validation_stagnation
+landsat,17,16,0.9114373969981466,fixed_capacity_incremental,class_stage,1010,"[3, 4, 1, 2]",2,validation_stagnation
+landsat,16,16,0.8380591570647621,fixed_capacity_incremental,class_stage,1010,"[3, 4, 1, 2, 5]",3,validation_stagnation
+landsat,12,16,0.8571436959796749,fixed_capacity_incremental,class_stage,1010,"[3, 4, 1, 2, 5, 0]",4,validation_stagnation
+landsat,15,16,0.8672169436130446,fixed_capacity_incremental,consolidation,1010,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+landsat,41,1,0.9546387520525452,adaptive_capacity_incremental,class_stage,1010,"[3, 4]",0,advance
+landsat,55,2,0.9644312319065674,adaptive_capacity_incremental,class_stage,1010,"[3, 4, 1]",1,advance
+landsat,60,5,0.9132053652554596,adaptive_capacity_incremental,class_stage,1010,"[3, 4, 1, 2]",2,budget_stop
+landsat,60,8,0.8265243642259772,adaptive_capacity_incremental,class_stage,1010,"[3, 4, 1, 2, 5]",3,budget_stop
+landsat,60,11,0.8537690378225441,adaptive_capacity_incremental,class_stage,1010,"[3, 4, 1, 2, 5, 0]",4,budget_stop
+landsat,15,11,0.8537690378225441,adaptive_capacity_incremental,consolidation,1010,"[3, 4, 1, 2, 5, 0]",5,maximum_epochs
+optdigits,28,16,0.9404501345908508,all_class_baseline,class_stage,1001,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,21,16,0.9633467664555748,fixed_capacity_incremental,class_stage,1001,"[9, 8]",0,validation_stagnation
+optdigits,32,16,0.9472059389336502,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7]",1,validation_stagnation
+optdigits,11,16,0.9394601377174084,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,22,16,0.9431883584418016,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,37,16,0.938537702174288,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,17,16,0.9458578838290128,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,17,16,0.9486492655388424,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,14,16,0.9397982937782058,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,39,16,0.9451047654395162,fixed_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9502419288674092,fixed_capacity_incremental,consolidation,1001,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,31,0,0.9528589058000824,adaptive_capacity_incremental,class_stage,1001,"[9, 8]",0,advance
+optdigits,33,0,0.9509623945553592,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7]",1,advance
+optdigits,14,0,0.9551297674357204,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6]",2,advance
+optdigits,32,0,0.957840125840126,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5]",3,advance
+optdigits,18,0,0.9340539602849084,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,34,0,0.9444939563904814,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,44,0,0.9511502411186544,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,26,0,0.933058088996207,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,25,0,0.9419558638155272,adaptive_capacity_incremental,class_stage,1001,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,0,0.9430549298949572,adaptive_capacity_incremental,consolidation,1001,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,28,16,0.9445907572391484,all_class_baseline,class_stage,1002,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,16,16,0.973810503222268,fixed_capacity_incremental,class_stage,1002,"[9, 8]",0,validation_stagnation
+optdigits,22,16,0.94417427887883,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7]",1,validation_stagnation
+optdigits,25,16,0.9549987328694528,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,25,16,0.9469555859641988,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,23,16,0.9377992896502364,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,22,16,0.9397755876153772,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,32,16,0.9496363497060164,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,20,16,0.9375024990620968,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,14,16,0.9456623801120856,fixed_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9458436195587608,fixed_capacity_incremental,consolidation,1002,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,19,0,0.958086460390608,adaptive_capacity_incremental,class_stage,1002,"[9, 8]",0,advance
+optdigits,31,1,0.9509028578593848,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7]",1,advance
+optdigits,12,1,0.9418387157516088,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6]",2,advance
+optdigits,27,1,0.94533054313901,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5]",3,advance
+optdigits,29,1,0.934692509662976,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,23,1,0.9359428310922786,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,19,1,0.9386021170647316,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,24,1,0.926443410712408,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,28,1,0.9384962927622408,adaptive_capacity_incremental,class_stage,1002,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,1,0.9384962927622408,adaptive_capacity_incremental,consolidation,1002,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,50,16,0.9470123603092028,all_class_baseline,class_stage,1003,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,20,16,0.9685648452929558,fixed_capacity_incremental,class_stage,1003,"[9, 8]",0,validation_stagnation
+optdigits,34,16,0.9580937525487316,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7]",1,validation_stagnation
+optdigits,12,16,0.9342019968119508,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,25,16,0.9514347210339344,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,31,16,0.9367324771102192,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,17,16,0.9353353095581076,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,16,16,0.94071525404444,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,16,16,0.9365007462603008,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,23,16,0.9382844137781176,fixed_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9441038627522657,fixed_capacity_incremental,consolidation,1003,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,18,0,0.958086460390608,adaptive_capacity_incremental,class_stage,1003,"[9, 8]",0,advance
+optdigits,25,0,0.95436387407086,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7]",1,advance
+optdigits,12,0,0.9417018261640856,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6]",2,advance
+optdigits,27,0,0.9494521238246012,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5]",3,advance
+optdigits,45,0,0.9509478744689096,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,54,0,0.9474172088050256,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,28,0,0.9484714575493638,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,28,0,0.9340412590892292,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,18,0,0.941014480487528,adaptive_capacity_incremental,class_stage,1003,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,0,0.9431293637321784,adaptive_capacity_incremental,consolidation,1003,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,23,16,0.9437721288616736,all_class_baseline,class_stage,1004,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,22,16,0.973819118896839,fixed_capacity_incremental,class_stage,1004,"[9, 8]",0,validation_stagnation
+optdigits,28,16,0.95490746690147,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7]",1,validation_stagnation
+optdigits,12,16,0.9366285152851268,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,32,16,0.9561555756624592,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,18,16,0.9441468746709912,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,19,16,0.938217149239238,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,44,16,0.9512010069778928,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,15,16,0.9370229275574486,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,17,16,0.947213367177794,fixed_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.952807015404811,fixed_capacity_incremental,consolidation,1004,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,22,0,0.9633347045111752,adaptive_capacity_incremental,class_stage,1004,"[9, 8]",0,advance
+optdigits,34,1,0.961539217108524,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7]",1,advance
+optdigits,13,1,0.9391640360080546,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6]",2,advance
+optdigits,31,1,0.9450614021479584,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5]",3,advance
+optdigits,13,1,0.9268779696700248,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,21,1,0.9472256346102838,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,19,1,0.9448933955084692,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,37,1,0.932143518239252,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,20,1,0.9351367901945432,adaptive_capacity_incremental,class_stage,1004,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,1,0.9404529514340216,adaptive_capacity_incremental,consolidation,1004,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,34,16,0.9471810482189502,all_class_baseline,class_stage,1005,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,21,16,0.973810503222268,fixed_capacity_incremental,class_stage,1005,"[9, 8]",0,validation_stagnation
+optdigits,28,16,0.9543361622924396,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7]",1,validation_stagnation
+optdigits,11,16,0.9366802366780286,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,24,16,0.9427871716245684,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,38,16,0.9455117442941536,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,24,16,0.943905612625504,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,19,16,0.944219224243568,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,14,16,0.9370626032619322,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,37,16,0.9416030741087588,fixed_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9445997570696844,fixed_capacity_incremental,consolidation,1005,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,19,0,0.963314583619152,adaptive_capacity_incremental,class_stage,1005,"[9, 8]",0,advance
+optdigits,25,0,0.9546589292148782,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7]",1,advance
+optdigits,11,0,0.936937903301641,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6]",2,advance
+optdigits,25,0,0.951664461906429,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5]",3,advance
+optdigits,48,0,0.9510064443358032,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,24,0,0.944661914247497,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,43,0,0.9526083646331548,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,25,0,0.934409541729588,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,26,0,0.94106662037929,adaptive_capacity_incremental,class_stage,1005,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,0,0.9430437536764008,adaptive_capacity_incremental,consolidation,1005,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,38,16,0.9482211222665649,all_class_baseline,class_stage,1006,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,20,16,0.9685648452929558,fixed_capacity_incremental,class_stage,1006,"[9, 8]",0,validation_stagnation
+optdigits,28,16,0.9616062801932368,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7]",1,validation_stagnation
+optdigits,11,16,0.9499669832433312,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,45,16,0.9511917173475222,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,31,16,0.9352048367755388,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,24,16,0.93789373329082,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,13,16,0.9379814204884892,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,13,16,0.9365156853990944,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,20,16,0.9377697314690836,fixed_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9489011582543084,fixed_capacity_incremental,consolidation,1006,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,44,0,0.9476310594428604,adaptive_capacity_incremental,class_stage,1006,"[9, 8]",0,advance
+optdigits,43,0,0.9545529256370237,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7]",1,advance
+optdigits,15,0,0.9448347579546448,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6]",2,advance
+optdigits,29,0,0.9516453604371794,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5]",3,advance
+optdigits,52,0,0.9474481834913876,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,26,0,0.9395793912305282,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,29,0,0.9404866642893714,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,33,0,0.934318196734148,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,32,0,0.9400107392845768,adaptive_capacity_incremental,class_stage,1006,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,0,0.9419529333070302,adaptive_capacity_incremental,consolidation,1006,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,26,16,0.9469749238850004,all_class_baseline,class_stage,1007,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,18,16,0.9581140350877192,fixed_capacity_incremental,class_stage,1007,"[9, 8]",0,validation_stagnation
+optdigits,34,16,0.9578737601102332,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7]",1,validation_stagnation
+optdigits,19,16,0.9367002969319044,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,22,16,0.9409160235986478,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,30,16,0.9458015938905784,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,17,16,0.9431054055099892,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,14,16,0.9460449037245392,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,22,16,0.9328820693556584,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,31,16,0.9392519933050506,fixed_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9502345821984332,fixed_capacity_incremental,consolidation,1007,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,22,0,0.9528744140143104,adaptive_capacity_incremental,class_stage,1007,"[9, 8]",0,advance
+optdigits,26,1,0.9477292473992144,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7]",1,advance
+optdigits,12,1,0.9313169100127952,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6]",2,advance
+optdigits,28,1,0.9535301228651104,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5]",3,advance
+optdigits,33,1,0.9543828362009784,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,26,1,0.9396378823809955,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,24,1,0.9454052018079804,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,25,1,0.9322001283533604,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,16,1,0.9463326503407136,adaptive_capacity_incremental,class_stage,1007,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,1,0.9475445213319238,adaptive_capacity_incremental,consolidation,1007,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,25,16,0.9460065172222784,all_class_baseline,class_stage,1008,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,21,16,0.9685648452929558,fixed_capacity_incremental,class_stage,1008,"[9, 8]",0,validation_stagnation
+optdigits,28,16,0.9367877662715176,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7]",1,validation_stagnation
+optdigits,24,16,0.9445621509483042,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,30,16,0.9388664192814116,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,27,16,0.9328423747282484,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,27,16,0.9401335080297156,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,40,16,0.9535205345020844,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,14,16,0.9423721633227726,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,21,16,0.9448633838436704,fixed_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9462242707174452,fixed_capacity_incremental,consolidation,1008,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,24,0,0.9476310594428604,adaptive_capacity_incremental,class_stage,1008,"[9, 8]",0,advance
+optdigits,35,0,0.9477241316809026,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7]",1,advance
+optdigits,13,0,0.944773295715909,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6]",2,advance
+optdigits,29,0,0.9622545697161244,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5]",3,advance
+optdigits,38,0,0.9420816722902886,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,35,0,0.94284446129524,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,28,0,0.9445121835741848,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,30,0,0.9353967940137614,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,21,0,0.9399396004749576,adaptive_capacity_incremental,class_stage,1008,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,0,0.941983848261034,adaptive_capacity_incremental,consolidation,1008,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,23,16,0.9450548869065294,all_class_baseline,class_stage,1009,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,23,16,0.9685855263157894,fixed_capacity_incremental,class_stage,1009,"[9, 8]",0,validation_stagnation
+optdigits,30,16,0.9616885413004908,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7]",1,validation_stagnation
+optdigits,28,16,0.9472252642191628,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,19,16,0.9325457025366456,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,24,16,0.9421544070094772,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,20,16,0.9411730493386355,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,13,16,0.9407206384992466,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,18,16,0.9273241667977375,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,15,16,0.940726186975276,fixed_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9462572441534084,fixed_capacity_incremental,consolidation,1009,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,13,0,0.9476310594428604,adaptive_capacity_incremental,class_stage,1009,"[9, 8]",0,advance
+optdigits,35,1,0.9544358411297336,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7]",1,advance
+optdigits,13,1,0.9392055346306616,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6]",2,advance
+optdigits,26,1,0.9557930318881508,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5]",3,advance
+optdigits,38,1,0.9457922954976064,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,38,1,0.9474186112905986,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,18,1,0.9428422431791608,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,31,1,0.940037549259338,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,23,1,0.9379076353734684,adaptive_capacity_incremental,class_stage,1009,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,1,0.9419365611245958,adaptive_capacity_incremental,consolidation,1009,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,33,16,0.950407245944206,all_class_baseline,class_stage,1010,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",0,validation_stagnation
+optdigits,28,16,0.9790570175438597,fixed_capacity_incremental,class_stage,1010,"[9, 8]",0,validation_stagnation
+optdigits,22,16,0.9404621121627657,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7]",1,validation_stagnation
+optdigits,35,16,0.9524906861748966,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6]",2,validation_stagnation
+optdigits,46,16,0.9555411125357264,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5]",3,validation_stagnation
+optdigits,25,16,0.9471174286425268,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4]",4,validation_stagnation
+optdigits,17,16,0.9418330396991846,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3]",5,validation_stagnation
+optdigits,24,16,0.9485235668114808,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3, 2]",6,validation_stagnation
+optdigits,14,16,0.9361986010290622,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,validation_stagnation
+optdigits,32,16,0.9470855172521524,fixed_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,validation_stagnation
+optdigits,15,16,0.9532520202653348,fixed_capacity_incremental,consolidation,1010,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs
+optdigits,48,0,0.9476425438596492,adaptive_capacity_incremental,class_stage,1010,"[9, 8]",0,advance
+optdigits,32,1,0.9472384618589532,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7]",1,advance
+optdigits,24,1,0.9448745387687504,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6]",2,advance
+optdigits,13,1,0.9221312479678404,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5]",3,advance
+optdigits,30,1,0.938662402274272,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4]",4,advance
+optdigits,31,1,0.941811395676005,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3]",5,advance
+optdigits,17,1,0.9434850874616384,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3, 2]",6,advance
+optdigits,23,1,0.9343073697362578,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3, 2, 1]",7,advance
+optdigits,26,1,0.9389050271787038,adaptive_capacity_incremental,class_stage,1010,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",8,advance
+optdigits,15,1,0.9437104693680688,adaptive_capacity_incremental,consolidation,1010,"[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]",9,maximum_epochs

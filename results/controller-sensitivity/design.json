@@ -1,0 +1,50 @@
+{
+  "datasets": [
+    "dry_bean",
+    "landsat",
+    "optdigits"
+  ],
+  "nominal_controller": {
+    "max_epochs_per_stage": 60,
+    "max_hidden_units": 16,
+    "min_delta": 0.001,
+    "min_epochs": 8,
+    "overfit_gap": 0.15,
+    "patience": 8,
+    "underfit_max_gap": 0.08,
+    "underfit_train_f1": 0.95
+  },
+  "purpose": "validation-only one-factor controller sensitivity check",
+  "reporting_rule": "report score and capacity ranges; do not alter the locked final protocol",
+  "seeds": [
+    741,
+    742,
+    743
+  ],
+  "test_evaluation": false,
+  "variants": {
+    "epoch_cap_45": {
+      "max_epochs_per_stage": 45
+    },
+    "fit_090": {
+      "underfit_train_f1": 0.9
+    },
+    "fit_098": {
+      "underfit_train_f1": 0.98
+    },
+    "growth_cap_8": {
+      "max_hidden_units": 8
+    },
+    "nominal": {},
+    "overfit_010": {
+      "overfit_gap": 0.1
+    },
+    "patience_6": {
+      "min_epochs": 6,
+      "patience": 6
+    },
+    "tolerance_003": {
+      "min_delta": 0.003
+    }
+  }
+}

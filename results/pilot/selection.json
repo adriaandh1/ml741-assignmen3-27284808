@@ -1,0 +1,11 @@
+{
+  "primary_choice": "Dry Bean: natural imbalance, 7 classes, ample support, no spatial caveat",
+  "selected": {
+    "dry_bean": "relu_fast",
+    "landsat": "relu_fast",
+    "optdigits": "relu_fast"
+  },
+  "selection_rule": "highest mean validation macro F1 across 3 methods and 3 seeds",
+  "test_predictions_computed": false,
+  "total_runs": 72
+}

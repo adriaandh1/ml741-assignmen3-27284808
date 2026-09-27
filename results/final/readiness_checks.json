@@ -1,0 +1,65 @@
+{
+  "analysis_regeneration": "two bitwise-identical complete passes",
+  "checks": [
+    {
+      "command": [
+        "/home/adriaan/projects/ml741-assignments/assignment-three/.venv/bin/python",
+        "-m",
+        "pytest"
+      ],
+      "result": "..................................................................       [100%]\n66 passed in 2.87s"
+    },
+    {
+      "command": [
+        "/home/adriaan/projects/ml741-assignments/assignment-three/.venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "scripts",
+        "tests"
+      ],
+      "result": "All checks passed!"
+    },
+    {
+      "command": [
+        "/home/adriaan/projects/ml741-assignments/assignment-three/.venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "result": "No broken requirements found."
+    },
+    {
+      "command": [
+        "/home/adriaan/projects/ml741-assignments/assignment-three/.venv/bin/python",
+        "scripts/run_final.py"
+      ],
+      "result": "Protocol verified: 90 paired runs, test evaluation False"
+    }
+  ],
+  "figure_count": 20,
+  "private_files_git_ignored": true,
+  "repeatability": [
+    {
+      "dataset": "dry_bean",
+      "method": "all_class_baseline",
+      "result": "bitwise_match",
+      "seed": 1001
+    },
+    {
+      "dataset": "dry_bean",
+      "method": "fixed_capacity_incremental",
+      "result": "bitwise_match",
+      "seed": 1001
+    },
+    {
+      "dataset": "dry_bean",
+      "method": "adaptive_capacity_incremental",
+      "result": "bitwise_match",
+      "seed": 1001
+    }
+  ],
+  "verified_runs": 90,
+  "report_source": "report/main.tex"
+}

@@ -1,0 +1,4 @@
+dataset,features,classes,train,validation,test,imbalance
+dry_bean,16,7,8125,2709,2709,6.795527156549521
+landsat,36,6,3326,1109,2000,2.585209003215434
+optdigits,64,10,1149,956,1797,10.071428571428571

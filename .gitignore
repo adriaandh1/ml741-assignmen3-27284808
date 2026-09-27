@@ -1,0 +1,32 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+results-smoke*/
+
+# Downloaded and derived data
+assignment3.pdf
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Run-level experiment artifacts and model checkpoints
+results/pilot/runs/
+results/final/runs/
+**/checkpoints/
+*.pt
+*.pth
+
+# Temporary files
+tmp/
+
+# LaTeX build products (the final PDF is kept at the repository root and in output/pdf)
+report/*.aux
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/27284808RW741assignment3.pdf

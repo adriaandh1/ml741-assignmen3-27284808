@@ -1,0 +1,24 @@
+phase: pilot
+status: complete
+datasets:
+  - dry_bean
+  - landsat
+  - optdigits
+methods:
+  - all_class_baseline
+  - fixed_capacity_incremental
+  - adaptive_capacity_incremental
+seeds: [741, 742, 743]
+selection_metric: macro_f1
+secondary_metrics:
+  - balanced_accuracy
+  - macro_recall
+  - accuracy
+controller:
+  numerical_thresholds: locked_in_final_yaml
+  maximum_hidden_units: 16
+test_evaluation: disabled
+completed_search_runs: 72
+search_definition: results/pilot/search_design.json
+results: results/pilot/search_results.csv
+selection: results/pilot/selection.json

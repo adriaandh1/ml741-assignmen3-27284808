@@ -1,0 +1,17 @@
+version: 1
+primary_metric: macro_f1
+analysis_seed: 2741
+bootstrap_resamples: 10000
+confidence_level: 0.95
+primary_comparisons: [fixed_minus_baseline, adaptive_minus_baseline]
+holm_family_size: 6
+adaptive_minus_fixed: descriptive
+representative_rule: lower_median_test_macro_f1_then_seed_per_dataset_method
+repeatability_subset: all_three_methods_dry_bean_seed_1001
+minority_rule: lowest_ceil_classes_divided_by_3_training_counts_then_label
+majority_rule: highest_ceil_classes_divided_by_3_training_counts_then_label
+missing_stage_class: unavailable_not_zero
+baseline_forgetting: not_applicable
+uncertainty_scope: optimisation_seeds_conditional_on_fixed_data_split
+test_cross_entropy: reconstructed_checkpoint_logits_in_local_output_order
+compute_comparison: measured_not_matched

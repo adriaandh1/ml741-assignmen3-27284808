@@ -1,0 +1,14 @@
+{
+  "dry_bean": [
+    "tanh_fast",
+    "relu_fast"
+  ],
+  "landsat": [
+    "tanh_fast",
+    "relu_fast"
+  ],
+  "optdigits": [
+    "relu_fast",
+    "tanh_fast"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "bytes": 15378938,
+  "files_verified": 1798,
+  "path": "tmp/final-evidence-v1-2.tar.gz",
+  "scope": "local recovery archive on same filesystem; not off-device backup",
+  "sha256": "463b1f51fd8698cbda26e3be6bf0c7df1dced42184af1bab152cca508c7fc2a4"
+}

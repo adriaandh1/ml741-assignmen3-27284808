@@ -1,0 +1,10 @@
+dataset,method,parameters,hidden_units,gradient_updates,runtime_seconds
+dry_bean,adaptive_capacity_incremental,207.8,3.7,7467.5,5.267984337600001
+dry_bean,all_class_baseline,503.0,16.0,1152.0,2.1470882157000006
+dry_bean,fixed_capacity_incremental,503.0,16.0,4207.8,7.974077748700012
+landsat,adaptive_capacity_incremental,660.6,10.2,4591.2,5.744243730400006
+landsat,all_class_baseline,910.0,16.0,806.0,1.5722193454000035
+landsat,fixed_capacity_incremental,910.0,16.0,1907.4,3.9622274348000017
+optdigits,adaptive_capacity_incremental,687.5,0.5,1072.4,1.6341866700000083
+optdigits,all_class_baseline,1850.0,16.0,277.2,0.63694348759999
+optdigits,fixed_capacity_incremental,1850.0,16.0,922.3,2.661618158500005

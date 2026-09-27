@@ -1,0 +1,62 @@
+{
+  "environment": {
+    "cuda_available": false,
+    "numpy": "2.5.2",
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.11.1",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.18.1"
+    },
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "source_sha256": {
+      "__init__.py": "09ab86a4207064e71fd0eed27f0b84f1d75cc34bd73d71ca0bcf2fdd488ec003",
+      "artifacts.py": "0319cb14765380b5cbf5fbcff45ec3ca59155b9ed7b373ff22f0ddebedf233e9",
+      "cli.py": "3b01c12bf8ac92773157c167f5073f3a04fc745d3397213926d80c2400822b2f",
+      "config.py": "cd694c41518597f5d1ad45457cd5fb472ebff4121d76063965391f87d8d3b2f3",
+      "controller.py": "76656bf6badc0ae63761b0b3b13e8f231546ce04edaf621f8760ee0833576ef4",
+      "data.py": "9a2cdb0990180d76df8ae739a6ff5191a821409f300880c3d71b8af289c8e823",
+      "datasets.py": "4095cfb77d2710edbe3306cca5e043b16a192e67fa49dfd9755564a32f039dfd",
+      "experiments.py": "db4590049f86e6997a758e7c2bc9c4778c7164101fe281c9fb43545039735b57",
+      "metrics.py": "df2a5bcc2264a3e97f8517370477b32f5fe700b84317f92ced17566194f88083",
+      "model.py": "8ecf6ece129100a68e2b3c79a7e02da77148328da8e29f5c4f0aabc3a81df6cc",
+      "plots.py": "0d56c7c8f7fbbb9b451d6ae5668f928a4fde6ce4070c121c15fe8962a7d9ad7b",
+      "reproducibility.py": "447440a8663d3fb2549f66a6b5791a9f819ed69c403f4017f70464d23f3d2cde",
+      "smoke.py": "7f4cd240bd4aceae96dcd9193c868bcbd46f01e2564b2da86d5eb5fabd0435d3",
+      "training.py": "1cb6a8395e95346b3538043035457d4bb4a98b7026d5b0d8c0657790af194260"
+    },
+    "torch": "2.14.0+cpu"
+  },
+  "locked_at_utc": "2026-09-05T15:33:44.105019+00:00",
+  "protocol_version": 1,
+  "sha256": {
+    "configs/final.yaml": "b9b4cba31875938f5672fe54d64feb282cc9b0090c1dd5100432e69d31f959e7",
+    "requirements.lock.txt": "18c11ae073c95270d851ec6eb8699292d17ae9f675655307a5d998e267a214b6",
+    "results/pilot/dataset_audit.json": "219f5dc8015e4ec27d26aee69014a46bfeb4f84e3eed2806809e753d0a79a309",
+    "results/pilot/search_design.json": "2e84ebebdd9e190b7cb847eb3ac83f2783a0c797dd2f07c309f1f7bb38345bcc",
+    "results/pilot/search_results.csv": "4c12a575614fc9f4c856bd8126f90794f7c688250ce9d1c2b787c498ad801e08",
+    "results/pilot/selection.json": "1625c439fdb5fbaf21b5d6e78be3e810d257be3d0d0fa4e6928f3c0c93dd7e3f",
+    "scripts/finish_phase2.py": "2db1e83c57e894634a6be48009b174d0aaa7157610742d37ed544b44edd018ce",
+    "scripts/run_final.py": "7cd7eaadd712d654bab6b1e4501fafdd8944e70f0be8c4195f9578f3d18c21df",
+    "scripts/run_pilot.py": "f297484bd25f6ff117a9dbfb585d5dcdc9941cfea671b14f96f01f885e4130ab",
+    "scripts/verify_phase2.py": "aaf34b4f32bcb72653a21c9dd749b4cb758a811baa1c22463cf8dd320f74d2b2",
+    "scripts/verify_smoke.py": "8591f498ac5877ed766c4a2a72d44b585ecae523620876cf5c655116d585f2bf",
+    "src/ml741_assignment3/__init__.py": "09ab86a4207064e71fd0eed27f0b84f1d75cc34bd73d71ca0bcf2fdd488ec003",
+    "src/ml741_assignment3/artifacts.py": "0319cb14765380b5cbf5fbcff45ec3ca59155b9ed7b373ff22f0ddebedf233e9",
+    "src/ml741_assignment3/cli.py": "3b01c12bf8ac92773157c167f5073f3a04fc745d3397213926d80c2400822b2f",
+    "src/ml741_assignment3/config.py": "cd694c41518597f5d1ad45457cd5fb472ebff4121d76063965391f87d8d3b2f3",
+    "src/ml741_assignment3/controller.py": "76656bf6badc0ae63761b0b3b13e8f231546ce04edaf621f8760ee0833576ef4",
+    "src/ml741_assignment3/data.py": "9a2cdb0990180d76df8ae739a6ff5191a821409f300880c3d71b8af289c8e823",
+    "src/ml741_assignment3/datasets.py": "4095cfb77d2710edbe3306cca5e043b16a192e67fa49dfd9755564a32f039dfd",
+    "src/ml741_assignment3/experiments.py": "db4590049f86e6997a758e7c2bc9c4778c7164101fe281c9fb43545039735b57",
+    "src/ml741_assignment3/metrics.py": "df2a5bcc2264a3e97f8517370477b32f5fe700b84317f92ced17566194f88083",
+    "src/ml741_assignment3/model.py": "8ecf6ece129100a68e2b3c79a7e02da77148328da8e29f5c4f0aabc3a81df6cc",
+    "src/ml741_assignment3/plots.py": "0d56c7c8f7fbbb9b451d6ae5668f928a4fde6ce4070c121c15fe8962a7d9ad7b",
+    "src/ml741_assignment3/reproducibility.py": "447440a8663d3fb2549f66a6b5791a9f819ed69c403f4017f70464d23f3d2cde",
+    "src/ml741_assignment3/smoke.py": "7f4cd240bd4aceae96dcd9193c868bcbd46f01e2564b2da86d5eb5fabd0435d3",
+    "src/ml741_assignment3/training.py": "1cb6a8395e95346b3538043035457d4bb4a98b7026d5b0d8c0657790af194260"
+  },
+  "test_evaluation_performed": false
+}

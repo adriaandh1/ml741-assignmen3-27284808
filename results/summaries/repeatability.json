@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "dry_bean",
+    "method": "all_class_baseline",
+    "result": "bitwise_match",
+    "seed": 1001
+  },
+  {
+    "dataset": "dry_bean",
+    "method": "fixed_capacity_incremental",
+    "result": "bitwise_match",
+    "seed": 1001
+  },
+  {
+    "dataset": "dry_bean",
+    "method": "adaptive_capacity_incremental",
+    "result": "bitwise_match",
+    "seed": 1001
+  }
+]

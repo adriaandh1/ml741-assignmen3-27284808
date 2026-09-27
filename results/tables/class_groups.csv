@@ -1,0 +1,10 @@
+dataset,method,minority_recall,majority_recall
+dry_bean,adaptive_capacity_incremental,0.9556044295250222,0.9147145842307516
+dry_bean,all_class_baseline,0.9553682910830729,0.9145601453460136
+dry_bean,fixed_capacity_incremental,0.9577663309796659,0.9147351081991116
+landsat,adaptive_capacity_incremental,0.7478223048773172,0.9124265011307517
+landsat,all_class_baseline,0.7355950166976623,0.9130834910232151
+landsat,fixed_capacity_incremental,0.7648179254904314,0.9083818710481377
+optdigits,adaptive_capacity_incremental,0.8300958946807757,0.9589414635464802
+optdigits,all_class_baseline,0.8511270439144862,0.9626902530842762
+optdigits,fixed_capacity_incremental,0.8471783045725715,0.966093977770208

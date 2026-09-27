@@ -1,0 +1,10 @@
+dataset,method,seed
+dry_bean,adaptive_capacity_incremental,1002
+dry_bean,all_class_baseline,1006
+dry_bean,fixed_capacity_incremental,1008
+landsat,adaptive_capacity_incremental,1006
+landsat,all_class_baseline,1005
+landsat,fixed_capacity_incremental,1010
+optdigits,adaptive_capacity_incremental,1002
+optdigits,all_class_baseline,1009
+optdigits,fixed_capacity_incremental,1007

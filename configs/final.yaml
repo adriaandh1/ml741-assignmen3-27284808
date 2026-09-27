@@ -1,0 +1,277 @@
+phase: final
+status: locked
+version: 1
+primary_dataset: dry_bean
+methods:
+- all_class_baseline
+- fixed_capacity_incremental
+- adaptive_capacity_incremental
+seeds:
+- 1001
+- 1002
+- 1003
+- 1004
+- 1005
+- 1006
+- 1007
+- 1008
+- 1009
+- 1010
+split_seed: 741
+paired_splits: true
+repetitions: 10
+expected_runs: 90
+primary_metric: macro_f1
+datasets:
+  dry_bean:
+    selected_candidate: relu_fast
+    training:
+      learning_rate: 0.01
+      weight_decay: 0.0001
+      batch_size: 128
+      max_epochs: 60
+      patience: 8
+      min_delta: 0.001
+      activation: relu
+      device: cpu
+      consolidation_epochs: 15
+      evaluate_test: true
+    controller:
+      min_epochs: 8
+      patience: 8
+      min_delta: 0.001
+      underfit_train_f1: 0.95
+      underfit_max_gap: 0.08
+      overfit_gap: 0.15
+      max_hidden_units: 16
+      max_epochs_per_stage: 60
+    hidden_units: 16
+    data:
+      archive_sha256: 0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f
+      classes: 7
+      constant_training_features: 0
+      counts:
+        test:
+        - 265
+        - 104
+        - 326
+        - 709
+        - 372
+        - 406
+        - 527
+        train:
+        - 793
+        - 313
+        - 978
+        - 2127
+        - 1116
+        - 1216
+        - 1582
+        validation:
+        - 264
+        - 105
+        - 326
+        - 710
+        - 372
+        - 405
+        - 527
+      cross_official_duplicate_groups: 0
+      duplicate_rows_removed: 68
+      feature_duplicate_overlap_between_partitions: 0
+      features: 16
+      labels:
+      - BARBUNYA
+      - BOMBAY
+      - CALI
+      - DERMASON
+      - HOROZ
+      - SEKER
+      - SIRA
+      long_tail_ratio: null
+      missing_values: 0
+      official_boundary: null
+      original_rows: 13611
+      prepared_sha256: e0c39ea0ab3a9fa812a480212c74f069d67ef1bd7e43900b16469fb3cf68426d
+      split_seed: 741
+      train_counts_before_long_tail:
+      - 793
+      - 313
+      - 978
+      - 2127
+      - 1116
+      - 1216
+      - 1582
+      train_imbalance_ratio: 6.795527156549521
+      url: https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip
+  landsat:
+    selected_candidate: relu_fast
+    training:
+      learning_rate: 0.01
+      weight_decay: 0.0001
+      batch_size: 128
+      max_epochs: 60
+      patience: 8
+      min_delta: 0.001
+      activation: relu
+      device: cpu
+      consolidation_epochs: 15
+      evaluate_test: true
+    controller:
+      min_epochs: 8
+      patience: 8
+      min_delta: 0.001
+      underfit_train_f1: 0.95
+      underfit_max_gap: 0.08
+      overfit_gap: 0.15
+      max_hidden_units: 16
+      max_epochs_per_stage: 60
+    hidden_units: 16
+    data:
+      archive_sha256: 7c54e0e11c872a1b0b647da370d596dcb06746159cce4121d92ccd70b7d7ce3c
+      classes: 6
+      constant_training_features: 0
+      counts:
+        test:
+        - 461
+        - 224
+        - 397
+        - 211
+        - 237
+        - 470
+        train:
+        - 804
+        - 359
+        - 721
+        - 311
+        - 353
+        - 778
+        validation:
+        - 268
+        - 120
+        - 240
+        - 104
+        - 117
+        - 260
+      cross_official_duplicate_groups: 0
+      duplicate_rows_removed: 0
+      feature_duplicate_overlap_between_partitions: 0
+      features: 36
+      labels:
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '7'
+      long_tail_ratio: null
+      missing_values: 0
+      official_boundary: 4435
+      original_rows: 6435
+      prepared_sha256: 4df11b23cef7e966eaf181003b450fa03f6db991695b131c3183de0be74d34b6
+      split_seed: 741
+      train_counts_before_long_tail:
+      - 804
+      - 359
+      - 721
+      - 311
+      - 353
+      - 778
+      train_imbalance_ratio: 2.585209003215434
+      url: https://archive.ics.uci.edu/static/public/146/statlog+landsat+satellite.zip
+  optdigits:
+    selected_candidate: relu_fast
+    training:
+      learning_rate: 0.01
+      weight_decay: 0.0001
+      batch_size: 128
+      max_epochs: 60
+      patience: 8
+      min_delta: 0.001
+      activation: relu
+      device: cpu
+      consolidation_epochs: 15
+      evaluate_test: true
+    controller:
+      min_epochs: 8
+      patience: 8
+      min_delta: 0.001
+      underfit_train_f1: 0.95
+      underfit_max_gap: 0.08
+      overfit_gap: 0.15
+      max_hidden_units: 16
+      max_epochs_per_stage: 60
+    hidden_units: 16
+    data:
+      archive_sha256: 0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0
+      classes: 10
+      constant_training_features: 3
+      counts:
+        test:
+        - 178
+        - 182
+        - 177
+        - 183
+        - 181
+        - 182
+        - 181
+        - 179
+        - 174
+        - 180
+        train:
+        - 282
+        - 218
+        - 169
+        - 130
+        - 101
+        - 78
+        - 60
+        - 47
+        - 36
+        - 28
+        validation:
+        - 94
+        - 97
+        - 95
+        - 97
+        - 97
+        - 94
+        - 94
+        - 97
+        - 95
+        - 96
+      cross_official_duplicate_groups: 0
+      duplicate_rows_removed: 0
+      feature_duplicate_overlap_between_partitions: 0
+      features: 64
+      labels:
+      - '0'
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      long_tail_ratio: 10
+      missing_values: 0
+      official_boundary: 3823
+      original_rows: 5620
+      prepared_sha256: ce0cd02e47795efec8f4afbbc2b6e36a684ada047dfd1025c4e9780e127e4aa4
+      split_seed: 741
+      train_counts_before_long_tail:
+      - 282
+      - 292
+      - 285
+      - 292
+      - 290
+      - 282
+      - 283
+      - 290
+      - 285
+      - 286
+      train_imbalance_ratio: 10.071428571428571
+      url: https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip
+uncertainty_scope: optimisation variability conditional on one fixed split per dataset
+test_evaluation: only with explicit --execute flag after lock preflight

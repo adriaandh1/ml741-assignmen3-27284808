@@ -1,0 +1,15 @@
+name: landsat
+status: accepted_secondary
+source:
+  repository: UCI Machine Learning Repository
+  dataset_id: 146
+  doi: 10.24432/C55887
+task: multiclass_classification
+imbalance:
+  mode: natural
+preprocessing:
+  standardize_numeric_features: true
+  fit_on_training_only: true
+audit_requirements:
+  minimum_test_examples_per_class: 20
+  reject_missing_target: true

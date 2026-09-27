@@ -1,0 +1,18 @@
+name: optdigits
+status: accepted_secondary
+source:
+  repository: UCI Machine Learning Repository
+  dataset_id: 80
+  doi: 10.24432/C50P49
+task: multiclass_classification
+imbalance:
+  mode: controlled_training_only_long_tail
+  maximum_to_minimum_ratio: 10
+  preserve_validation_distribution: true
+  preserve_test_distribution: true
+preprocessing:
+  standardize_numeric_features: true
+  fit_on_training_only: true
+audit_requirements:
+  minimum_test_examples_per_class: 20
+  reject_missing_target: true
